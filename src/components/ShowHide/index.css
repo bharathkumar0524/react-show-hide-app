@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.show-hide-bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.show-hide-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.buttons-section {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-top: 20px;
+  min-height: 25%;
+}
+.button-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.button {
+  padding: 8px;
+  color: #dd1264;
+  background-color: #fddddb;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.show-hide-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: #fddddd;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border-radius: 8px;
+}
